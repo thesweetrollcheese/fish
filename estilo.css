@@ -1,0 +1,571 @@
+*{
+box-sizing: border-box;
+padding:0;
+margin:0;
+}
+
+@media (max-width: 880px){
+
+div#uno{
+	width: 80%;
+	height: auto;
+	background: white;
+	margin: auto;
+	padding-top: 50px;
+	padding-bottom: 100px;
+	display: flex;
+	justify-content: center;
+}
+	
+div#unoa{
+	width: 100px;
+	height: 130px;
+	background-image: url("logo.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: auto;
+}
+
+div#unob{
+	display: none;
+}
+
+div#dos{
+	width: 90%;
+	height: auto;
+	margin: auto;
+	background: white;
+	display: flex;
+	flex-direction: column-reverse;
+}
+
+div#dosb{
+	width: 90%;
+	height: auto;
+	margin: auto;
+	margin-bottom: 100px;
+}
+	
+div#dosb img{
+		width: 100%;
+		height: auto;
+} 
+	
+div#dosa{
+	width: 70%;
+	height: auto;
+	margin: auto;
+	margin-bottom: 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+	
+div#dosa h1{
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 40px;
+	text-align: center;
+	margin-bottom: 50px;
+}
+	
+div#dosa h2{
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	font-size: 20px;
+	text-align: center;
+	margin-bottom: 50px;
+}
+	
+span.Chef{
+	color: olive;
+}
+	
+div#dosa a{
+	background: olive;
+	border-radius: 12px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 40px;
+	padding-right: 40px;
+	text-decoration: none;
+	color: white;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	font-size: 32px;
+	margin: auto;
+	margin-top: 20px;
+}
+
+div#solo{
+	width: 60%;
+	height: auto;
+	margin: auto;
+	border-bottom: olive 10px solid;
+	border-top: olive 10px solid
+}
+	
+div#solo h1{
+	text-align: center;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 46px;
+	padding-top: 100px;
+}
+	
+div#solo h2{
+	text-align: center;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	font-size: 26px;
+	margin-top: 50px;
+	padding-bottom: 100px;
+}
+	
+div#tres{
+	display: none;
+	}
+div#tresmovil{
+	width: 80%;
+	height: auto;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-bottom: 100px;
+	padding-top: 100px;
+	border-bottom: olive 10px solid;
+	}
+div#primero{
+	width: 60%;
+	height: auto;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	}
+	
+div#primero img{
+	margin: auto;
+	margin-bottom: 50px;
+	}
+	
+div#primero h1{
+	margin: auto;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 30px;
+	text-align: center;
+	}
+	
+div#segundo{
+	width: 60%;
+	height: auto;
+	margin: auto;
+	margin-bottom: 100px;
+	margin-top: 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	}
+	
+div#segundo img{
+	margin: auto;
+	margin-bottom: 50px;
+	}
+	
+div#segundo h1{
+	margin: auto;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 30px;
+	text-align: center;
+	}
+	
+div#tercero{
+	width: 60%;
+	height: auto;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	}
+	
+div#tercero img{
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 50px;
+	}
+	
+div#tercero h1{
+	margin: auto;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 30px;
+	text-align: center;
+	}
+	
+div#cuatro{
+	width: 80%;
+	height: auto;
+	margin: auto;
+	background: white;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin-bottom: 100px;
+}
+	
+div#cuatroa{
+	width: 80%;
+	height: auto;
+	margin: auto;
+	margin-top: 100px;
+}
+
+div#cuatroa img{
+	width: 100%;
+	height: auto;
+}
+	
+div#cuatrob{
+	width: 80%;
+	height: auto;
+	margin: auto;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+	
+div#cuatrob h1{
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	font-size: 40px;
+	text-align: center;
+}
+	
+div#cuatrob h2{
+	text-align: center;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	font-size: 26px;
+	margin-top: 50px;
+}
+	
+div#fondo{
+	width: 100%;
+	height: 100%;
+	background: red;
+	margin: auto;
+}
+	
+div#cinco{
+	width: 80%;
+	height: auto;
+	margin: auto;
+	background: red;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+	
+div#cincoa{
+	width: 15%;
+	height: auto;
+	margin: auto;
+	padding-top: 80px;
+}
+div#cincoa img{
+	width: 100%;
+	height: auto;
+	}
+div#cincob{
+	width: 40%;
+	height: 200px;
+	margin: auto;
+	padding-top: 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+	
+div#cincob a{
+	text-decoration: none;
+	color: white;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	font-size: 22px;
+	text-align: center;
+}
+	
+div#cincoc{
+	width: 25%;
+	height: 200px;
+	margin: auto;
+	padding-top: 50px;
+	text-align: center;
+}
+	
+div#cincoc h1{
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	font-size: 22px;
+	text-align: center;
+	color: white;
+}
+}
+
+@media (min-width: 880px){
+	
+div#uno{
+	width: 80%;
+	height: auto;
+	background: white;
+	margin: auto;
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	display: flex;
+	justify-content: space-around;
+}
+	
+div#unoa{
+	width: 100px;
+	height: 130px;
+	background-image: url("logo.png");
+	background-repeat: no-repeat;
+}
+
+div#unob{
+	width: 600px;
+	height: 50px;
+	margin-left: auto;
+	padding-top: 20px;
+	padding-right: 120px;
+	display: flex;
+	justify-content: space-around;
+}
+	
+#unob a{
+	text-decoration: none;
+	color: black;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	font-size: 22px;
+}
+	
+div#dos{
+	width: 80%;
+	height: auto;
+	background: white;
+	margin: auto;
+	display: flex;
+	align-content: space-around;
+}
+	
+div#dosa{
+	width: 30%;
+	height: 840px;
+	margin: auto;
+	padding-top: 260px;
+	
+}
+	
+div#dosa h1{
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 40px;
+	text-align: right;
+}
+	
+div#dosa h2{
+	margin-top: 30px;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	font-size: 20px;
+	text-align: right;
+}
+	
+span.Chef{
+	color: olive;
+}
+	
+div#dosa a{
+	background: olive;
+	border-radius: 12px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 40px;
+	padding-right: 40px;
+	text-decoration: none;
+	color: white;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	font-size: 22px;
+	float: right;
+	margin-top: 50px;
+}
+	
+div#dosb{
+	width: 60%;
+	height: 840px;
+	margin: auto;
+	margin-bottom: 30px;
+}
+	
+div#solo{
+	width: 60%;
+	height: 500px;
+	margin: auto;
+	margin-top: 100px;
+	border-bottom: olive 10px solid;
+	border-top: olive 10px solid
+}
+	
+div#solo h1{
+	text-align: center;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 46px;
+	margin-top: 120px;
+}
+	
+div#solo h2{
+	text-align: center;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	font-size: 26px;
+	margin-top: 60px;
+}
+	
+div#tres{
+	width: 80%;
+	height: auto;
+	margin: auto;
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+	border-bottom: olive 10px solid;
+}
+	
+div#qo{
+	margin: auto;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+	
+div#qo h1{
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 46px;
+	text-align: center;
+} 
+	
+div#tresa{
+	width: 80%;
+	margin: auto;
+	align-content: center;
+	display: flex;
+	justify-content: space-around;
+	padding-bottom: 60px;
+}
+	
+div.ico{
+	width: 30%;
+	display: flex;
+	justify-content: space-around;
+}
+	
+div#tresb{
+	width: 80%;
+	margin: auto;
+	align-content: center;
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 120px;
+}
+	
+div.txt{
+	margin-left: 20px;
+	margin-right: 20px;
+	width: 30%;
+	display: flex;
+	justify-content: space-between;
+}
+	
+div#tresb h1{
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	font-size: 20px;
+	text-align: center;
+}
+div#tresmovil{
+		display: none;
+	}	
+div#cuatro{
+	width: 80%;
+	height: auto;
+	background: white;
+	margin: auto;
+	display: flex;
+	align-content: space-around;
+	margin-bottom: 100px;
+}
+	
+div#cuatroa{
+	width: 50%;
+	height: 580px;
+	margin-top: 120px;
+}
+	
+div#cuatrob{
+	width: 40%;
+	height: 580px;
+	margin: auto;
+	padding-top: 160px;
+}
+	
+div#cuatrob h1{
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	font-size: 40px;
+	text-align: left;
+}
+	
+div#cuatrob h2{
+	text-align: left;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	font-size: 26px;
+	margin-top: 60px;
+}
+	
+div#fondo{
+	width: 100%;
+	height: 100%;
+	background: red;
+}
+	
+div#cinco{
+	width: 80%;
+	height: auto;
+	background: red;
+	margin: auto;
+	display: flex;
+	align-content: space-around;
+}
+	
+div#cincoa{
+	width: 25%;
+	height: 200px;
+	margin: auto;
+	padding-top: 80px;
+}
+
+div#cincob{
+	width: 40%;
+	height: 200px;
+	margin: auto;
+	padding-top: 100px;
+	display: flex;
+	justify-content: space-between;
+}
+	
+#cincob a{
+	text-decoration: none;
+	color: white;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	font-size: 22px;
+}
+	
+div#cincoc{
+	width: 25%;
+	height: 200px;
+	margin: auto;
+	padding-top: 80px;
+}
+	
+div#cincoc h1{
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	font-size: 22px;
+	text-align: right;
+	color: white;
+}
+}

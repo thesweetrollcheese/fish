@@ -1,0 +1,483 @@
+*{
+box-sizing: border-box;
+padding:0;
+margin:0;
+}
+
+@media (max-width: 880px){
+
+div#uno{
+	width: 80%;
+	height: auto;
+	background: white;
+	margin: auto;
+	padding-top: 50px;
+	padding-bottom: 100px;
+	display: flex;
+	justify-content: center;
+}
+	
+div#unoa{
+	width: 100px;
+	height: 130px;
+	background-image: url("logo.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: auto;
+}
+
+div#unob{
+	display: none;
+}
+
+div#dos{
+	width: 90%;
+	height: auto;
+	margin: auto;
+	background: white;
+	display: flex;
+	flex-direction: column-reverse;
+}
+
+div#dosb{
+	width: 90%;
+	height: auto;
+	margin: auto;
+	margin-bottom: 100px;
+}
+	
+div#dosb img{
+		width: 100%;
+		height: auto;
+} 
+	
+div#dosa{
+	width: 70%;
+	height: auto;
+	margin: auto;
+	margin-bottom: 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+	
+div#dosa h1{
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 40px;
+	text-align: center;
+	margin-bottom: 50px;
+}
+	
+div#dosa h2{
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	font-size: 20px;
+	text-align: center;
+	margin-bottom: 50px;
+}
+	
+span.Chef{
+	color: olive;
+}
+	
+div#dosa a{
+	background: olive;
+	border-radius: 12px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 40px;
+	padding-right: 40px;
+	text-decoration: none;
+	color: white;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	font-size: 32px;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 150px;
+}
+
+div#menu {
+	display: none;
+	}
+	
+div#menut {
+	width: 85%;
+	height: 3800px;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	margin-bottom: 50px;
+	margin-top: -100px;
+	}
+
+span.titulot {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 25px;
+	text-align: center;
+	padding-top: 50px;
+	}
+div#menut a {
+	background: olive;
+	border-radius: 12px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 30px;
+	padding-right: 30px;
+	text-decoration: none;
+	color: white;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	font-size: 20px;
+	margin: auto;
+	margin-top: 20px;
+}
+
+div#itemts {
+	width: 85%;
+	height: auto;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	margin-top: auto;
+	}
+	
+div.itemt {
+	width: 85%;
+	height: auto;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	margin-bottom: 50px;
+	}
+	
+div.itemt img {
+	border-radius: 50px;	
+	}
+
+div.itemt h1 {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 30px;
+	text-align: center;
+	padding-top: 25px;
+	}	
+
+div.itemt p {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	font-size: 18px;
+	text-align: center;
+	padding-bottom: 50px;
+	padding-top: 20px;
+	}	
+	
+div#fondo {
+	width: 100%;
+	height: 100%;
+	background: red;
+	margin: auto;
+}
+	
+div#cinco{
+	width: 80%;
+	height: auto;
+	margin: auto;
+	background: red;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+	
+div#cincoa{
+	width: 15%;
+	height: auto;
+	margin: auto;
+	padding-top: 80px;
+}
+div#cincoa img{
+	width: 100%;
+	height: auto;
+	}
+div#cincob{
+	width: 40%;
+	height: 200px;
+	margin: auto;
+	padding-top: 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+	
+div#cincob a{
+	text-decoration: none;
+	color: white;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	font-size: 22px;
+	text-align: center;
+}
+	
+div#cincoc{
+	width: 25%;
+	height: 200px;
+	margin: auto;
+	padding-top: 50px;
+	text-align: center;
+}
+	
+div#cincoc h1{
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	font-size: 22px;
+	text-align: center;
+	color: white;
+}
+}
+
+@media (min-width: 880px){
+	
+div#uno{
+	width: 80%;
+	height: auto;
+	background: white;
+	margin: auto;
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	display: flex;
+	justify-content: space-around;
+}
+	
+div#unoa{
+	width: 100px;
+	height: 130px;
+	background-image: url("logo.png");
+	background-repeat: no-repeat;
+}
+
+div#unob{
+	width: 600px;
+	height: 50px;
+	margin-left: auto;
+	padding-top: 20px;
+	padding-right: 120px;
+	display: flex;
+	justify-content: space-around;
+}
+	
+#unob a{
+	text-decoration: none;
+	color: black;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	font-size: 22px;
+}
+	
+div#dos{
+	width: 80%;
+	height: auto;
+	background: white;
+	margin: auto;
+	display: flex;
+	align-content: space-around;
+}
+	
+div#dosa{
+	width: 30%;
+	height: 840px;
+	margin: auto;
+	padding-top: 260px;
+	
+}
+	
+div#dosa h1{
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 40px;
+	text-align: right;
+}
+	
+div#dosa h2{
+	margin-top: 30px;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	font-size: 20px;
+	text-align: right;
+}
+	
+span.Chef{
+	color: olive;
+}
+	
+div#dosa a{
+	background: olive;
+	border-radius: 12px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 40px;
+	padding-right: 40px;
+	text-decoration: none;
+	color: white;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	font-size: 22px;
+	float: right;
+	margin-top: 50px;
+}
+	
+div#dosb{
+	width: 60%;
+	height: 840px;
+	margin: auto;
+	margin-bottom: 30px;
+}
+
+div#menut{
+	display: none;
+	}
+	
+div#menu{
+	width: 80%;
+	height: 1400px;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 100px;
+	margin-top: 100px;
+	}
+
+span.titulo{
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 30px;
+	text-align: center;
+	padding-top: 15px;
+	margin-bottom: -100px;
+	}
+div#menu a{
+	background: olive;
+	border-radius: 12px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 30px;
+	padding-right: 30px;
+	text-decoration: none;
+	color: white;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	font-size: 20px;
+	margin: auto;
+	margin-top: 20px;
+}
+div#superior{
+	width: 85%;
+	height: 500px;
+	margin: auto;
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 50px;
+	}
+
+div#inferior{
+	width: 85%;
+	height: 500px;
+	margin: auto;
+	display: flex;
+	justify-content: space-around;
+	margin-top: 50px;
+	margin-bottom: 100px;
+	}
+
+div.itema{
+	width: 30%;
+	height: 400px;
+	display: flex;
+	flex-direction: column;
+	}
+	
+div.itema img{
+	border-radius: 50px;	
+	}
+
+div.itema h1{
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 30px;
+	text-align: center;
+	padding-top: 20px;
+	}	
+
+div.itema p{
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	font-size: 18px;
+	text-align: center;
+	padding-top: 20px;
+	}	
+	
+div.itemo{
+	width: 30%;
+	height: 400px;
+	display: flex;
+	flex-direction: column;
+	}
+
+div.itemo img{
+	border-radius: 50px;	
+	}
+
+div.itemo h1{
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 30px;
+	text-align: center;
+	padding-top: 20px;
+	}
+	
+div.itemo p{
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	font-size: 18px;
+	text-align: center;	
+	padding-top: 20px;
+	}	
+	
+div#fondo{
+	width: 100%;
+	height: 100%;
+	background: red;
+}
+	
+div#cinco{
+	width: 80%;
+	height: auto;
+	background: red;
+	margin: auto;
+	display: flex;
+	align-content: space-around;
+}
+	
+div#cincoa{
+	width: 25%;
+	height: 200px;
+	margin: auto;
+	padding-top: 80px;
+}
+
+div#cincob{
+	width: 40%;
+	height: 200px;
+	margin: auto;
+	padding-top: 100px;
+	display: flex;
+	justify-content: space-between;
+}
+	
+#cincob a{
+	text-decoration: none;
+	color: white;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	font-size: 22px;
+}
+	
+div#cincoc{
+	width: 25%;
+	height: 200px;
+	margin: auto;
+	padding-top: 80px;
+}
+	
+div#cincoc h1{
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	font-size: 22px;
+	text-align: right;
+	color: white;
+}
+}
